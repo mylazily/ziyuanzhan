@@ -1,8 +1,16 @@
-# 资源站,影视资源站与采集站聚集和收集平台，包含视频源，播放源，json，xml等等格式，支持LibreTV maccms LunaTV KatelyaTV OrionTV MoonTVPlus 等
+# 资源站监控 - 影视资源站可用性监测工具
 
-一个自动监测 [ziyuanzu.com](https://www.ziyuanzu.com/) 影视资源站可用性的开源工具，通过 GitHub Actions 定时运行，生成静态监控页面并通过 GitHub Pages 发布。
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/mylazily/ziyuanzhan/monitor.yml?branch=main&style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+![Python 3.11](https://img.shields.io/badge/Python-3.11-green?style=flat-square)
+![GitHub Stars](https://img.shields.io/github/stars/mylazily/ziyuanzhan?style=flat-square)
+![GitHub Forks](https://img.shields.io/github/forks/mylazily/ziyuanzhan?style=flat-square)
 
-**✨ 新增：MCP (Model Context Protocol) 服务器支持 - 让 AI 工具直接查询资源站数据！**
+自动监测 [ziyuanzu.com](https://www.ziyuanzu.com/) 影视资源站可用性的开源工具，通过 GitHub Actions 定时运行，生成静态监控页面并通过 GitHub Pages 发布。
+
+支持 LibreTV、maccms、LunaTV、KatelyaTV、OrionTV、MoonTVPlus 等平台。
+
+**MCP (Model Context Protocol) 服务器支持 - 让 AI 工具直接查询资源站数据！**
 
 ## 功能特性
 - **定时监测**：每 2 小时自动抓取并检测所有资源站状态
@@ -10,7 +18,7 @@
 - **静态页面**：自动生成美观的暗色主题监控面板
 - **历史存档**：每次监测结果保存为 JSON，支持历史对比
 - **GitHub Pages**：零成本部署，自动更新
-- **🤖 MCP 服务器**：为 Claude/Cursor 等 AI 工具提供资源站查询能力
+- **MCP 服务器**：为 Claude/Cursor 等 AI 工具提供资源站查询能力
 
 ## 项目结构
 ```
@@ -24,8 +32,8 @@ ziyuanzhan/
 │   ├── latest.json          # 最新监测数据
 │   └── monitor_*.json       # 历史数据存档
 ├── monitor.py               # 核心监测脚本
-├── mcp_server.py            # 🆕 MCP 服务器
-├── mcp.json                 # 🆕 MCP 配置示例
+├── mcp_server.py            # MCP 服务器
+├── mcp.json                 # MCP 配置示例
 ├── requirements.txt         # Python 依赖
 └── README.md                # 项目说明
 ```
@@ -55,7 +63,7 @@ https://你的用户名.github.io/ziyuanzhan/
 ### 4. 手动触发（可选）
 进入 **Actions** → **Monitor ziyuanzu.com Resources** → **Run workflow**，可以立即手动运行一次监测。
 
-## 🤖 MCP 服务器使用
+## MCP 服务器使用
 
 ### 安装依赖
 ```bash
@@ -102,7 +110,7 @@ pip install -r requirements.txt
 ## 本地运行
 ```bash
 # 克隆仓库
-git clone https://github.com/你的用户名/ziyuanzhan.git
+git clone https://github.com/mylazily/ziyuanzhan.git
 cd ziyuanzhan
 
 # 安装依赖
@@ -137,10 +145,10 @@ TIMEOUT = 15  # 秒
 
 ## 数据来源
 - 资源站列表：[ziyuanzu.com](https://www.ziyuanzu.com/)
-- 监测方式：HTTP HEAD 请求检测可用性
+- 监测方式：HTTP 请求检测可用性
 
 ## 免责声明
 本项目为第三方开源监测工具，与 ziyuanzu.com 官方无关。仅供学习和技术交流使用。
 
 ## License
-MIT License
+[MIT](LICENSE)
