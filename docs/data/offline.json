@@ -1,33 +1,7 @@
 {
-  "timestamp": "2026-08-25 07:00:21",
-  "total": 13,
+  "timestamp": "2026-08-25 13:01:51",
+  "total": 12,
   "data": [
-    {
-      "name": "魔都资源站",
-      "link": "https://www.mdzyapi.com",
-      "source_url": "https://www.ziyuanzu.com/source/modouziyuanzhan",
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
-      "description": "魔都资源采集站，资源丰富稳定",
-      "status": "down",
-      "uptime": "50%",
-      "resource_count": 87456,
-      "rating": 4.5,
-      "tags": [
-        "资源丰富",
-        "稳定",
-        "采集站"
-      ],
-      "speed": "slow",
-      "responseTime": 15001,
-      "todayUpdates": 17,
-      "health": {
-        "url": "https://www.mdzyapi.com",
-        "status_code": null,
-        "response_time_ms": null,
-        "is_alive": false,
-        "error": "Timeout"
-      }
-    },
     {
       "name": "百花资源站",
       "link": "https://bhziyuan.com",
