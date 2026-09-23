@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-23 11:21:17",
-  "total": 12,
+  "timestamp": "2026-09-23 16:43:22",
+  "total": 13,
   "data": [
     {
       "name": "百花资源站",
@@ -104,6 +104,32 @@
         "response_time_ms": null,
         "is_alive": false,
         "error": "Connection Error"
+      }
+    },
+    {
+      "name": "如意资源站",
+      "link": "https://api.ryzy.com",
+      "source_url": "https://www.ziyuanzu.com/source/ruyiziyuanzhan",
+      "api": "https://api.ryzy.com/api.php/provide/vod",
+      "description": "如意资源采集站，提供影视资源API接口",
+      "status": "down",
+      "uptime": "-",
+      "resource_count": 0,
+      "rating": 4,
+      "tags": [
+        "影视资源",
+        "采集站",
+        "API"
+      ],
+      "speed": "fast",
+      "responseTime": 460,
+      "todayUpdates": 0,
+      "health": {
+        "url": "https://api.ryzy.com",
+        "status_code": null,
+        "response_time_ms": null,
+        "is_alive": false,
+        "error": "Timeout"
       }
     },
     {
