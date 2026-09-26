@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-09-25 21:26:59",
+  "timestamp": "2026-09-26 04:43:37",
   "total": 13,
   "data": [
+    {
+      "name": "飘零影院资源站",
+      "link": "https://p2100.net",
+      "source_url": "https://www.ziyuanzu.com/source/piaolingyingyuanziyuanzhan",
+      "api": "https://p2100.net/api.php/provide/vod/",
+      "description": "飘零影院采集站，资源丰富",
+      "status": "down",
+      "uptime": "-",
+      "resource_count": 98019,
+      "rating": 4.4,
+      "tags": [
+        "资源丰富",
+        "稳定",
+        "采集站"
+      ],
+      "speed": "medium",
+      "responseTime": 525,
+      "todayUpdates": 20,
+      "health": {
+        "url": "https://p2100.net",
+        "status_code": null,
+        "response_time_ms": null,
+        "is_alive": false,
+        "error": "Connection Error"
+      }
+    },
     {
       "name": "百花资源站",
       "link": "https://bhziyuan.com",
@@ -104,32 +130,6 @@
         "response_time_ms": null,
         "is_alive": false,
         "error": "Connection Error"
-      }
-    },
-    {
-      "name": "如意资源站",
-      "link": "https://api.ryzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/ruyiziyuanzhan",
-      "api": "https://api.ryzy.com/api.php/provide/vod",
-      "description": "如意资源采集站，提供影视资源API接口",
-      "status": "down",
-      "uptime": "-",
-      "resource_count": 0,
-      "rating": 4,
-      "tags": [
-        "影视资源",
-        "采集站",
-        "API"
-      ],
-      "speed": "fast",
-      "responseTime": 460,
-      "todayUpdates": 0,
-      "health": {
-        "url": "https://api.ryzy.com",
-        "status_code": null,
-        "response_time_ms": null,
-        "is_alive": false,
-        "error": "Timeout"
       }
     },
     {
