@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-11-10 14:44:03",
-  "total": 11,
+  "timestamp": "2026-11-10 23:07:44",
+  "total": 12,
   "data": [
+    {
+      "name": "百花资源站",
+      "link": "https://bhziyuan.com",
+      "source_url": "https://www.ziyuanzu.com/source/baihuaziyuanzhan",
+      "api": "https://bhziyuan.com/api.php/provide/vod",
+      "description": "百花资源采集站，提供影视资源API接口",
+      "status": "down",
+      "uptime": "-",
+      "resource_count": 11523,
+      "rating": 4.3,
+      "tags": [
+        "影视资源",
+        "热门",
+        "极速"
+      ],
+      "speed": "medium",
+      "responseTime": 540,
+      "todayUpdates": 0,
+      "health": {
+        "url": "https://bhziyuan.com",
+        "status_code": null,
+        "response_time_ms": null,
+        "is_alive": false,
+        "error": "Connection Error"
+      }
+    },
     {
       "name": "ok资源站",
       "link": "https://api.okzy.com",
