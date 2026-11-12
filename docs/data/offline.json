@@ -1,33 +1,7 @@
 {
-  "timestamp": "2026-11-12 00:28:08",
-  "total": 13,
+  "timestamp": "2026-11-12 15:00:23",
+  "total": 11,
   "data": [
-    {
-      "name": "魔都资源站",
-      "link": "https://www.mdzyapi.com",
-      "source_url": "https://www.ziyuanzu.com/source/modouziyuanzhan",
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
-      "description": "魔都资源采集站，资源丰富稳定",
-      "status": "down",
-      "uptime": "50%",
-      "resource_count": 87456,
-      "rating": 4.5,
-      "tags": [
-        "资源丰富",
-        "稳定",
-        "采集站"
-      ],
-      "speed": "slow",
-      "responseTime": 15001,
-      "todayUpdates": 17,
-      "health": {
-        "url": "https://www.mdzyapi.com",
-        "status_code": null,
-        "response_time_ms": null,
-        "is_alive": false,
-        "error": "Timeout"
-      }
-    },
     {
       "name": "ok资源站",
       "link": "https://api.okzy.com",
@@ -104,32 +78,6 @@
         "response_time_ms": null,
         "is_alive": false,
         "error": "Connection Error"
-      }
-    },
-    {
-      "name": "如意资源站",
-      "link": "https://api.ryzy.com",
-      "source_url": "https://www.ziyuanzu.com/source/ruyiziyuanzhan",
-      "api": "https://api.ryzy.com/api.php/provide/vod",
-      "description": "如意资源采集站，提供影视资源API接口",
-      "status": "down",
-      "uptime": "-",
-      "resource_count": 0,
-      "rating": 4,
-      "tags": [
-        "影视资源",
-        "采集站",
-        "API"
-      ],
-      "speed": "fast",
-      "responseTime": 460,
-      "todayUpdates": 0,
-      "health": {
-        "url": "https://api.ryzy.com",
-        "status_code": 432,
-        "response_time_ms": 832.32,
-        "is_alive": false,
-        "error": null
       }
     },
     {
