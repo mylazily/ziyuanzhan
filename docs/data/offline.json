@@ -1,7 +1,33 @@
 {
-  "timestamp": "2026-11-11 13:59:12",
-  "total": 12,
+  "timestamp": "2026-11-12 00:28:08",
+  "total": 13,
   "data": [
+    {
+      "name": "魔都资源站",
+      "link": "https://www.mdzyapi.com",
+      "source_url": "https://www.ziyuanzu.com/source/modouziyuanzhan",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+      "description": "魔都资源采集站，资源丰富稳定",
+      "status": "down",
+      "uptime": "50%",
+      "resource_count": 87456,
+      "rating": 4.5,
+      "tags": [
+        "资源丰富",
+        "稳定",
+        "采集站"
+      ],
+      "speed": "slow",
+      "responseTime": 15001,
+      "todayUpdates": 17,
+      "health": {
+        "url": "https://www.mdzyapi.com",
+        "status_code": null,
+        "response_time_ms": null,
+        "is_alive": false,
+        "error": "Timeout"
+      }
+    },
     {
       "name": "ok资源站",
       "link": "https://api.okzy.com",
@@ -100,10 +126,10 @@
       "todayUpdates": 0,
       "health": {
         "url": "https://api.ryzy.com",
-        "status_code": null,
-        "response_time_ms": null,
+        "status_code": 432,
+        "response_time_ms": 832.32,
         "is_alive": false,
-        "error": "Timeout"
+        "error": null
       }
     },
     {
